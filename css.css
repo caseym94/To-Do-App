@@ -1,0 +1,116 @@
+ body {
+     background: #9aae9b;
+     overflow: hidden;
+ }
+ .toDoContainer {
+     margin: 5vh auto;
+     align-items: center;
+     height: auto;
+     width: 500px;
+ }
+ .toDoContainer .alerter {
+     background: red;
+     font-size: 30px;
+     padding: 5px;
+     text-align: center;
+     color: white;
+     box-shadow: -13px 10px 2px 2px rgba(0, 0, 0, 0.23);
+     border: 1px solid black;
+     opacity: 0;
+ }
+ .boxShadow {
+     box-shadow: -13px 10px 2px 2px rgba(0, 0, 0, 0.23);
+ }
+ .toDoHeaderContainer h1 {
+     margin: 30px 0 0 0;
+     font-size: 50px;
+     text-align: center;
+     background: black;
+     color: white;
+ }
+ .toDoCell {
+     background: #dfe8ee;
+     border: 1px solid black;
+     box-sizing: border-box;
+     height: inherit;
+     width: inherit;
+ }
+ .toDoCellHeader button {
+     padding: 0 10px;
+     margin: 0 20px;
+     font-weight: 900;
+ }
+ .toDoCellHeader .addButton:hover {
+     color: blue;
+ }
+ .toDoCellHeader input {
+     box-sizing: border-box;
+     font-size: 25px;
+     padding: 10px;
+     width: 82%;
+ }
+ .toDoCellBody ul {
+     font-size: 0;
+     padding: 0;
+ }
+ .toDoCellBody ul li {
+     width: 100%;
+     font-size: 25px;
+     padding: 10px;
+     background: #eefbfc;
+     list-style: none;
+     box-sizing: border-box;
+     border: 1px solid rgba(0, 0, 0, 0.33);
+     transition: all .3s ease-in-out;
+ }
+ .toDoCellBody ul li:hover {
+     background: rgba(12, 12, 15, 0.001);
+ }
+ .toDoCellBody ul li .listItem {
+     padding: 0 20px;
+ }
+ .listItemAcommplished {
+     opacity: .3;
+     text-decoration: line-through;
+ }
+ .toDoCellBody ul li .complete {
+     color: #7b9f43;
+     font-weight: 900;
+     padding: 0 10px;
+     opacity: .3;
+     transition: .3s;
+ }
+ .toDoCellBody ul li .complete:hover {
+     color: #92d827;
+     opacity: 1;
+ }
+ .toDoCellBody ul li .completeFull {
+     opacity: 1;
+     color: #84c422;
+ }
+ .toDoCellBody ul li .remove {
+     color: #ad0000;
+     float: right;
+     font-weight: 900;
+     margin: 0 20px;
+     padding: 0 10px;
+     transition: all .3s ease-in-out;
+     opacity: 0;
+ }
+ .toDoCellBody ul li:hover .remove {
+     opacity: 1;
+ }
+ .toDoCellBody ul li .remove:hover {
+     color: #ff0000;
+ }
+ .toDoBodyFooter {
+     font-size: 18px;
+     width: inherit;
+ }
+ .toDoBodyFooter div {
+     display: inline-block;
+     padding: 18px;
+ }
+ .toDoBodyFooter {
+     display: inline-block;
+ }
