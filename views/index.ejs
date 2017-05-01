@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        To-Do Project
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="toDoContainer">
+        <div class="alerter">Alert!</div>
+        <div class="boxShadow">
+            <div class="toDoHeaderContainer">
+                <h1>Task List <button class="options-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </button></h1>
+            </div>
+            <div class="toDoCell">
+                <div class="options-overlay height-off display-off">
+                    <div class="options-container opacity-off">
+                        <span>To help keep track of your goals</span>
+                        <button class="login">Login</button>
+                        <div>or</div>
+                        <button class="sign-up">Sign up</button>
+                    </div>
+                    <form class="sign-up-form display-off">
+                        <h1>Sign-up</h1>
+                        <input type="text" placeholder="Select a Username">
+                        <input type="text" placeholder="Select a Password">
+                        <button>Submit</button>
+                    </form>
+                </div>
+                <div class="toDoCellHeader">
+                    <button class="addButton">N</button>
+                    <input class="newItemInput" placeholder="What do you need to get done?">
+                </div>
+                <div class="toDoCellBody">
+                    <ul>
+                        <li>
+                            <input type="checkbox" class="complete">
+                            <span class="listItem">List Item</span>
+                            <button class="remove">X</button>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="complete">
+                            <span class="listItem">List Item</span>
+                            <button class="remove">X</button>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="complete">
+                            <span class="listItem">List Item</span>
+                            <button class="remove">X</button>
+                        </li>
+                        <li>
+                            <input type="checkbox" class="complete">
+                            <span class="listItem">List Item</span>
+                            <button class="remove">X</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="toDoBodyFooter">
+                    <div class="left"><span class="itemsLeft">4</span> items left</div>
+                    <div class="center">
+                        <button>All</button>
+                        <button>Active</button>
+                        <button>Completed</button>
+                    </div>
+                    <div class="right">Clear completed</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
